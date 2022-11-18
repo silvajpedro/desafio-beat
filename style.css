@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.containerHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #129799;
+  color: #ffffff;
+}
+.headerMenu {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.menuList {
+  display: flex;
+  justify-content: space-around;
+}
+.menuItem {
+  list-style: none;
+  margin: 1rem;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+.logoContainer {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 30vh;
+}
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  position: relative;
+  left: 12px;
+  top: 12px;
+}
+.logoContainer .logoHeader {
+  width: 40vw;
+  position: relative;
+  left: 0.7rem;
+  top: 1vh;
+}
+.menuSections {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+}
+.menuSectionsList {
+  display: flex;
+}
+.menuSectionsItem {
+  margin: 1rem;
+  font-size: 1.3rem;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+.container_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffa185;
+  height: 140vh;
+}
+.container_main div {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  width: 96%;
+  height: 20vh;
+  row-gap: 20px;
+}
+.container_main h2 {
+  color: #ffff;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+.container_main div p {
+  width: 62vw;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.container_main_box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  flex-wrap: wrap;
+  /* border: solid red; */
+}
+.container_main_box img {
+  width: 46vw;
+  height: 44vh;
+}
+.seeMore {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-weight: bold;
+  width: 100%;
+  height: 6vh;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  /* border: solid red; */
+}
+.footer {
+  background-color: #129799;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menuFooter {
+  width: 30%;
+  display: flex;
+}
+.menuFooterList {
+  display: flex;
+  margin-right: 1rem;
+}
+.menuFooterItem {
+  margin: 1rem;
+  list-style: none;
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+}
+.menuFooterItem img {
+  width: 2vw;
+}
